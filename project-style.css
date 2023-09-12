@@ -218,7 +218,7 @@ section{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: #f9f4e5;
+    background: #b2eeffad;
     transition: all .50s ease;
 }
 .navbar a{
