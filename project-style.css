@@ -76,24 +76,25 @@ section{
 .hero-text h6{
     font-size: 15 px;
     font-weight: 600;
-    color: #ffe392;
+    color: white;
     margin-bottom: 30px;
 }
 .hero-text h1{
+    color: rgb(112, 255, 253);
     font-size: 95px;
     line-height: 1.1;
     margin: 0 0 30px;
     font-family: 'Permanent Marker', cursive;
 }
 .hero-text h5{
-    color: #3f51dc;
+    color: white;
     font-size: 19px;
     font-weight: 500;
     margin-bottom: 12px;
 
 }
 .hero-text p{
-    color: #4d4b47;
+    color: white;
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 40px;
@@ -125,11 +126,14 @@ section{
     background: #3f51dc;
     color: #fff;
 }
-.hero-imgg img{
+.hero-img img{
     height: auto;
     width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+ 
 }
-
 .icon{
     position: absolute;
     top: 50%;
