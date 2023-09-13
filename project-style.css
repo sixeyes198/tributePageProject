@@ -166,6 +166,31 @@ section{
     text-align: center;
     display: block;
 }
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.Early-life{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-left: 35%;
+    margin-top: 13%;
+    margin-bottom: 13%;
+}
+.Career{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-right: 35%;
+    margin-bottom: 20px;
+}
+#one{
+    text-decoration-line: underline;
+}
 /* Here are some settings for other dimensions */
 
 @media (max-width:1760px){
