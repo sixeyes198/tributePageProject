@@ -150,6 +150,23 @@ section{
 .icon i:hover{
     transform: translateY(-6px);
 }
+.Early-life h1{
+    text-align: center;
+    display: block;
+}
+.Career h1{
+    text-align: center;
+    display: block;
+}
+.Sponsorships h1{
+    text-align: center;
+    display: block;
+}
+.Surf-films h1{
+    text-align: center;
+    display: block;
+}
+/* Here are some settings for other dimensions */
 
 @media (max-width:1760px){
     header{
