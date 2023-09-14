@@ -269,6 +269,7 @@ hr{
     section{
         padding: 0 4%;
     }
+  
 }
 
 @media (max-width:1060px){
@@ -291,6 +292,14 @@ hr{
     }
     .hero-text h6{
         margin-bottom: 15px;
+    }
+    .containspons img{
+        height: 50%;
+        width: 50%;
+    }
+    iframe{
+        height: 50%;
+        width: 50%;
     }
 }
 
@@ -327,6 +336,10 @@ hr{
     .hero-imgg{
         width: 450px;
         height: auto;
+    }
+    .careerimg img{
+        width: 50%;
+        
     }
 }
 
