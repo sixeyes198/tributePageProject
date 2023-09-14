@@ -155,8 +155,14 @@ section{
     display: block;
 }
 .Career h1{
+    font-size: 37px;
     text-align: center;
     display: block;
+}
+hr{
+    text-align: center;
+ 
+       
 }
 .Sponsorships h1{
     text-align: center;
@@ -217,7 +223,17 @@ section{
     flex-direction: column;
     margin-top: 30px;
     margin-left: -12%;
+    margin-bottom: 20px;
     border: 2px ridge rgb(217, 233, 255);
+}
+.Sponsorships iframe{
+   display: flex;
+}
+.Sponsorships p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    background-color:  #aab0dfa9 
 }
 #one{
     text-decoration-line: underline;
