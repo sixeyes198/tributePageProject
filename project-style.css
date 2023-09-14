@@ -207,6 +207,12 @@ section{
     margin-top: 20%;
     margin-bottom: 20px;
 }
+.containspons img{
+    display: flex;
+    flex-direction: column;
+    margin-left: -23%;
+    border: 2px ridge orange;
+}
 #one{
     text-decoration-line: underline;
 }
