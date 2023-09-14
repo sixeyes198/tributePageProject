@@ -198,7 +198,9 @@ section{
     margin-top: 13%;
     margin-bottom: 13%;
 }
-
+.Early-life p{
+    font-size: 20px;
+}
 .Career{
     background-color: #ffec73;
     border: 1px solid #ddd;
@@ -207,11 +209,15 @@ section{
     margin-top: 20%;
     margin-bottom: 20px;
 }
+.Career p{
+    font-size: 20px;
+}
 .containspons img{
     display: flex;
     flex-direction: column;
-    margin-left: -23%;
-    border: 2px ridge orange;
+    margin-top: 30px;
+    margin-left: -12%;
+    border: 2px ridge rgb(217, 233, 255);
 }
 #one{
     text-decoration-line: underline;
