@@ -338,6 +338,7 @@ hr{
         height: auto;
     }
     .careerimg img{
+        height: 50%;
         width: 50%;
         
     }
