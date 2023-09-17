@@ -24,12 +24,11 @@ header{
 }
 .navbar{
     display: flex;
-    justify-content: center;
-    
 }
 .navbar a{
     position: static;
-    justify-content: center;
+    display: flex;
+    justify-content: space-evenly;
     margin: 0 20px;
     padding: 4px;
     color: #000000;
@@ -219,12 +218,12 @@ section{
 .Career p{
     font-size: 20px;
 }
+/* Need to add more images*/ 
+
 .containspons img{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 30px;
-    position: center;
-    margin-left: 20%;
     margin-bottom: 20px;
     border: 2px ridge rgb(217, 233, 255);
 }
@@ -283,6 +282,12 @@ section{
     
     text-decoration-line: underline;
 }
+#menu-icon{
+    display: none;
+}
+
+/* add footer styles*/ 
+
 
 /* Here are some settings for other dimensions */
 
