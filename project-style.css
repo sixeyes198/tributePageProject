@@ -24,8 +24,12 @@ header{
 }
 .navbar{
     display: flex;
+    justify-content: center;
+    
 }
 .navbar a{
+    position: static;
+    justify-content: center;
     margin: 0 20px;
     padding: 4px;
     color: #000000;
@@ -279,6 +283,7 @@ section{
     
     text-decoration-line: underline;
 }
+
 /* Here are some settings for other dimensions */
 
 @media (max-width:1760px){
@@ -294,6 +299,7 @@ section{
     section{
         padding: 0 13%;
     }
+    
 }
 
 @media (max-width:1560px){
@@ -362,32 +368,12 @@ section{
         display: block;
     }
     .Legacy iframe{
-        align-items: center;
+        margin-left: 20%;
     }
 }
-.navbar{
-    position: absolute;
-    top: 100%;
-    right: -100%;
-    width: 250px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background: #b2eeffad;
-    transition: all .50s ease;
-}
-.navbar a{
-    display: block;
-    padding: 15px;
-    font-size: 22px;
-}
-.navbar a:hover{
-    border-bottom: 2px solid transparent;
-}
-.navbar.active{
-    right: 0;
-    
-}
+
+
+/* Nav bar dissapear on smaller dimensions*/ 
 
 @media (max-width:750px){
     .hero-imgg{
@@ -397,6 +383,29 @@ section{
     .careerimg img{
         height: 50%;
         width: 50%;
+        
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 250px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: #b2eeffad;
+        transition: all .50s ease;
+    }
+    .navbar a{
+        display: block;
+        padding: 15px;
+        font-size: 22px;
+    }
+    .navbar a:hover{
+        border-bottom: 2px solid transparent;
+    }
+    .navbar.active{
+        right: 0;
         
     }
 }
