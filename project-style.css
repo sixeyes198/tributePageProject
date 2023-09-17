@@ -47,22 +47,7 @@ header{
     z-index: 10001;
     display: block;
 }
-.top-btn{
-    display: inline-block;
-    padding: 9px 25px;
-    font-size: 15px;
-    font-weight: 600;
-    color:#fff;
-    background: #3f51dc;
-    border-radius: 10px;
-    border: 2px solid transparent;
-    transition: all .50s ease;
-}
-.top-btn:hover{
-    background: transparent;
-    color: #3f51dc;
-    border: 2px solid #3f51dc;
-}
+
 section{
     padding: 0 17%;
 }
@@ -76,12 +61,7 @@ section{
     align-items: center;
     gap: 1.5rem;
 }
-.hero-text h6{
-    font-size: 15 px;
-    font-weight: 600;
-    color: white;
-    margin-bottom: 30px;
-}
+
 .hero-text h1{
     color: rgb(112, 255, 253);
     font-size: 95px;
@@ -102,33 +82,7 @@ section{
     line-height: 30px;
     margin-bottom: 40px;
 }
-.btn{
-    display:  inline-block;
-    padding: 12px 25px;
-    font-size: 15px;
-    font-weight: 600;
-    color:#fff;
-    background: #3f51dc;
-    border-radius: 10px;
-    border: 2px solid transparent;
-    transition: all .50s ease;
-}
-.btn:hover{
-    background: transparent;
-    color: #3f51dc;
-    border:  2px solid #3f51dc;
-}
-.btn2{
-    border: 2px solid #3f51dc;
-    color: #3f51dc;
-    background: transparent;
-    margin-left: 15px;
-    transition: all .50s ease;
-}
-.btn2:hover{
-    background: #3f51dc;
-    color: #fff;
-}
+
 .hero-img img{
     height: auto;
     width: 100%;
@@ -194,7 +148,11 @@ section{
     margin-left: 20%;
     opacity: 77.5%;
     margin-bottom: -15%;
-    border: 2px solid black;
+    border: 3px solid black;
+}
+.careerimg2 img{
+    float: right;
+    border: 3px solid black;
 }
 .Early-life{
     background-color: white;
@@ -218,17 +176,24 @@ section{
 .Career p{
     font-size: 20px;
 }
-/* Need to add more images*/ 
-
 .containspons img{
     display: flex;
     flex-direction: row;
     margin-top: 30px;
     margin-bottom: 20px;
-    border: 2px ridge rgb(217, 233, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+.containspons2 img{
+    display: flex;
+   margin-left: 52%;
+   margin-top: -41%;
+   margin-bottom: 3%;
+   border: 2px solid black;
 }
 .Sponsorships iframe{
    display: flex;
+   margin-left: 15%;
+   border: 3px solid black;
 }
 .Sponsorships p{
     margin-top: 10px;
@@ -285,9 +250,21 @@ section{
 #menu-icon{
     display: none;
 }
-
 /* add footer styles*/ 
-
+.footerp{
+    color: white;
+    font-family: 'Just Another Hand', cursive;
+    
+}
+.icons{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   font-size: 70px;
+}
+.icons i{
+    color: white ;
+}
 
 /* Here are some settings for other dimensions */
 
@@ -329,8 +306,14 @@ section{
         height: 50%;
         width: 50%;
     }
+    .containspons2 img{
+        height: 50%;
+        width: 50%;
+    }
     .Legacy iframe{
-        align-items: center;
+        height: 50%;
+        width: 50%;
+        margin-left: 20%;
     }
 }
 
@@ -366,6 +349,14 @@ section{
     .Legacy iframe{
         align-items: center;
     }
+    .careerimg img{
+        height: 50%;
+        width: 50%;
+    }
+    .careerimg2 img{
+        height: 50%;
+        width: 50%;
+    }
 }
 
 @media (max-width:960px){
@@ -384,11 +375,6 @@ section{
     .hero-imgg{
         width: 450px;
         height: auto;
-    }
-    .careerimg img{
-        height: 50%;
-        width: 50%;
-        
     }
     .navbar{
         position: absolute;
@@ -437,8 +423,5 @@ section{
     }
     .hero-text h1{
         font-size: 60px;
-    }
-    .scroll{
-        bottom: 2%;
     }
 }
