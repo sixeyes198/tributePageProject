@@ -23,6 +23,8 @@ header{
     z-index: 1000;
 }
 .navbar{
+   background-color: #fff;  
+   border-radius: 5px;  
     display: flex;
 }
 .navbar a{
@@ -112,6 +114,7 @@ section{
     display: block;
 }
 .Career h1{
+    padding: 20px;
     font-size: 37px;
     text-align: center;
     display: block;
@@ -175,6 +178,7 @@ section{
 }
 .Career p{
     font-size: 20px;
+    padding: 10px;
 }
 .containspons img{
     display: flex;
@@ -192,6 +196,7 @@ section{
 }
 .Sponsorships iframe{
    display: flex;
+   justify-content: center;
    margin-left: 15%;
    border: 3px solid black;
 }
@@ -252,6 +257,9 @@ section{
 }
 /* add footer styles*/ 
 .footerp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     font-family: 'Just Another Hand', cursive;
     
@@ -349,15 +357,11 @@ section{
     .Legacy iframe{
         align-items: center;
     }
-    .careerimg img{
+    .careerimg img, .careerimg2 img{
         height: 50%;
         width: 50%;
     }
-    .careerimg2 img{
-        height: 50%;
-        width: 50%;
-    }
-}
+   
 
 @media (max-width:960px){
     #menu-icon{
@@ -410,6 +414,25 @@ section{
     }
     .hero{
         gap: 10px;
+    }
+    .earlyimg img{
+        margin-top: 2%;
+    }
+    .image-column{
+        float: right;
+        width: 45%;
+        margin-top: -15%;
+        margin-left: 20px;
+    }
+    .careerimg img, .careerimg2 img{
+        height: 50%;
+        width: 50%;
+    }
+    .careerimg img{
+        float: right;
+    }
+    .careerimg2 img{
+        margin-top: 20%;
     }
 }
 
